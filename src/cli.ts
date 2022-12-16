@@ -73,7 +73,7 @@ async function onGetToken(argv: any) {
     client_secret = secrets.installed.client_secret;
   }
   else {
-    client_id = argv.client_id;
+    client_id = argv.clientId;
     if (!client_id) {
       console.error(
         chalk.red(
@@ -82,7 +82,7 @@ async function onGetToken(argv: any) {
       );
       process.exit(1);
     }
-    client_secret = argv.client_secret;
+    client_secret = argv.clientSecret;
     if (!client_secret) {
       console.error(
         chalk.red(
