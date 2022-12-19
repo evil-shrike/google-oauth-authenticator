@@ -10,7 +10,7 @@ Also it provides a CLI tool for generating refresh tokens.
 ## Usage
 
 First we'll need a Desktop type OAuth credentials.
-Go to https://pantheon.corp.google.com/apis/credentials and click "Create Credentials" -> OAuth client ID.
+Go to https://console.cloud.google.com/apis/credentials and click "Create Credentials" -> OAuth client ID.
 And select 'Desktop app' as application type.
 Copy and save client id and client secret, or download secrets json file.
 
